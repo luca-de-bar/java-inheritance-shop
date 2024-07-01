@@ -36,6 +36,7 @@ public class Headset extends Product {
 	
 	
 	//Get product Info
+	@Override
 	public void getInfo() {
 		System.out.println("---- HEADSET INFO ----");
 		System.out.println("Product Code : " + super.getProductCode());

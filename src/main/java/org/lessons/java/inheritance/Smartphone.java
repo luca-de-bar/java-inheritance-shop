@@ -31,7 +31,9 @@ public class Smartphone extends Product{
 	}
 	
 	
+	
 	//Get all info
+	@Override
 	public void getInfo() {
 		System.out.println("----- SMARTPHONE INFO -----");
 		System.out.println("Product Code : " + super.getProductCode());

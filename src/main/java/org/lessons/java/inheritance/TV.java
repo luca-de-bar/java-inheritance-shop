@@ -35,6 +35,7 @@ public class TV extends Product {
 	}
 	
 	//Getter Methods
+	@Override
 	public void getInfo () {
 		System.out.println("----- TV INFO -----");
 		System.out.println("Product Code : " + super.getProductCode());

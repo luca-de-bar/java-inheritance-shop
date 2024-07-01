@@ -57,4 +57,13 @@ public class Product {
 	}
 	
 	
+	public void getInfo() {
+		System.out.println("Product Code : " + this.productCode);
+		System.out.println("Name : " + this.name);
+		System.out.println("Brand : " + this.brand);
+		System.out.println("Price : " + this.price + "€");
+		System.out.println("VAT : " + this.VAT + "%\n");
+	}
+	
+	
 }
